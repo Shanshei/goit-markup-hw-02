@@ -1,0 +1,42 @@
+.logo-link{
+    color:rgba(33, 150, 243, 1); 
+    text-decoration: none;
+}
+
+
+.logo-dark{
+    color: #000000;
+    text-decoration: none;
+}
+.logo-light{
+    color:  #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+.link-nav  {
+    text-decoration: none;
+    color: #3C3C3C;
+
+}
+.link-nav:focus,
+.link-nav:hover{
+    color: #2196F3;
+}
+.mail-link {
+    text-decoration: none;
+    color: #757575;
+}
+.mail-link:focus,
+.mail-link:hover{
+    color: #2196F3;
+}
+.contact-link{
+    text-decoration: none;
+    color: #757575;
+}
+.contact-link:focus,
+.contact-link:hover{
+    color: #2196F3;
+}

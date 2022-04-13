@@ -5,21 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <!-- Шапка страницы -->
-    <header>
+    <header class="page-header">
       <nav>
-        <a href="">WebStudio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a href="./index.html" class="logo-link">Web
+          <span class="logo-dark">Studio</span></a>
+        <ul class="list-nav" > 
+          <li><a href="./index.html"  class="link-nav" >Студия</a></li>
+          <li><a href="/portfolio.html" class="link-nav">Портфолио</a></li>
+          <li><a href="" class="link-nav">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list-contact">
+        <li><a href="mailto:info@devstudio.com" class="mail-link">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
@@ -101,24 +103,26 @@
             <img src="./images/work4.jpg" alt="Михаил Ермаков" width="270" />
             <h3>Михаил Ермаков</h3>
             <p>UI Designer</p>
-          </li>
+          </li> 
         </ul>
       </section>
     </main>
     <!--Подвал-->
-    <footer>
-      <a href="">WebStudio</a>
+    <footer class="footer-content">
+      <a href="" class="logo-link">Web
+        <span class="logo-light"> Studio</span></a>
 
       г.Киев, пр-т Леси Украинки, 26
-      <address>
-        <ul>
-          <li>
+      <address class="footer-adress">
+        <ul class="list-address">
+          <li class="footer-item-link">
             <a href="https://goo.gl/maps/UcBDpjbboQ9RmnYD9"
-              >г.Киев, пр-т Леси Украинки, 26</a
-            >
+            target="_blank"
+            rel="noopener noindex nofollow"
+              >г.Киев, пр-т Леси Украинки, 26</a>
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li><a href="mailto:info@devstudio.com"  class="footer-mail-link">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="footer-contact-link">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
