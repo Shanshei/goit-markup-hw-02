@@ -19,7 +19,12 @@
     font-family: 'Roboto', sans-serif;
     color: #212121;
 }
-
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
 
 
 
@@ -62,12 +67,9 @@
 }
 
 /* ----site nav------ */
-.site-nav{
-    list-style: none;
-    
-}
+
 .link-nav  {
-    text-decoration: none;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -79,29 +81,29 @@
 .link-nav:hover{
     color: var(--accent-color)
 }
-.list-contact{
-    list-style: none;
-}
-.mail-link,
-.contact-link {
+
+
+.mail,
+.contact {
     
     
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    
     color: var(--item-text-color);
 }
-.mail-link:focus,
-.mail-link:hover{
+.mail:focus,
+.mail:hover{
     color: var(--accent-color)
 }
 
-.contact-link:focus,
-.contact-link:hover{
+.contact:focus,
+.contact:hover{
     color: var(--accent-color)
 }
+
 
 /* ------hero------- */
 
@@ -141,9 +143,7 @@
     color: var(--title-text-color)
 }
 /* ----------features--------- */
-.features-list {
-    list-style: none;
-}
+
 .features-list .title{
     font-weight: 700;
     font-size: 14px;
@@ -161,18 +161,14 @@
 .section-work{
     background-color: var(--secondary-background-color)
 }
-.work-list{
-    list-style: none;
-}
+
 
 
 /* -----------team--------- */
 .section-team{
     background-color: var(--secondary-background-color);
 }
-.team-list{
-    list-style: none;
-}
+
 .team-list .title{
     font-weight: 500;
     font-size: 16px;
@@ -194,10 +190,7 @@
 
 }
 
-.list-address{
 
-    list-style: none;
-}
 .footer-address-link{
     text-decoration: none;
     font-size: 14px;
@@ -217,9 +210,8 @@
 .section-portfolio{
     background-color: var(--background-color)
 }
-.list-button{
-    list-style: none;
-}
+
+
 .button-current{
     font-family: inherit;
     font-style: 400;
@@ -238,13 +230,9 @@
 }
 
 
-.list-projects{
-    list-style: none;
-}
 
-.portfolio-link{
-    text-decoration: none;
-}
+
+
 .portfolio-title {
     
     font-weight: 700;
