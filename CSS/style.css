@@ -15,6 +15,10 @@
     --hero-title-color:#ffffff;
 }
 
+
+address{
+    font-style: normal;
+}
 .page{
     font-family: 'Roboto', sans-serif;
     color: #212121;
