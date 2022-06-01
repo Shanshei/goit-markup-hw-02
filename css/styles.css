@@ -16,9 +16,8 @@
 }
 
 
-address{
-    font-style: normal;
-}
+
+
 .page{
     font-family: 'Roboto', sans-serif;
     color: #212121;
@@ -39,9 +38,7 @@ address{
 }
 .logo-link{
     color: #2196F3;
-    text-decoration: none;
     font-family: 'Raleway', sans-serif;;
-    font-style: 400;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -51,28 +48,19 @@ address{
 
 .logo-dark{
     color: #000000;
-    text-decoration: none;
-    font-family: 'Raleway',sans-serif;;
-    font-style: 400;
-    font-weight: 700;
-    font-size: 26px;
-    line-height:  1.19;
-    letter-spacing: 0.03em;
+    
 }
 .logo-light{
     color:  #FFFFFF;
-    text-decoration: none;
-    font-family: 'Raleway' sans-serif;;
-    font-style: 400;
-    font-weight: 700;
-    font-size: 26px;
-    line-height:  1.19;
-    letter-spacing: 0.03em;
+    
 }
 
 /* ----site nav------ */
+.link-nav.current{
+    color: var(--accent-color);
+}
 
-.link-nav  {
+.link-nav {
     
     font-weight: 500;
     font-size: 14px;
@@ -84,7 +72,11 @@ address{
 .link-nav:focus,
 .link-nav:hover{
     color: var(--accent-color)
+
 }
+
+    
+
 
 
 .mail,
@@ -110,6 +102,9 @@ address{
 
 
 /* ------hero------- */
+.hero{
+    background-color:var(--third-background-color);
+}
 
 .hero-title{
     
@@ -118,16 +113,16 @@ address{
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--hero-title-color);
-    background-color:var(--third-background-color);
+    
 }
 .hero-btn{
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    align-items: center;
-    text-align: center;
+    
     letter-spacing: 0.06em;
     color: var(--background-color);
     background-color: var(--accent-color);
@@ -153,6 +148,7 @@ address{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--title-text-color)
 }
 .features-list .text{
@@ -162,9 +158,7 @@ address{
     color: var(--item-text-color);
 }
 /*----------- Work--------- */
-.section-work{
-    background-color: var(--secondary-background-color)
-}
+
 
 
 
@@ -193,22 +187,29 @@ address{
     background-color:var(--third-background-color)
 
 }
+.footer-address{
+    font-style: normal;
+}
 
-
-.footer-address-link{
-    text-decoration: none;
+.footer-address-link {
+    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--hero-title-color);
 }
 .footer-link{
-    text-decoration: none;
+    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     }
+.footer-link:focus,
+.footer-link:hover{
+    color: var(--accent-color);
+}
+
 
 /* --------Portfolio-------- */
 .section-portfolio{
@@ -218,11 +219,9 @@ address{
 
 .button-current{
     font-family: inherit;
-    font-style: 400;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
 
@@ -248,7 +247,6 @@ address{
 
 
 .portfolio-text{
-    text-decoration: none;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
