@@ -20,7 +20,7 @@
 
 
 
-.page{
+.body{
     font-family: 'Roboto', sans-serif;
     color:#434455;
     background-color: #ffffff;
@@ -95,21 +95,18 @@
 .header-address{
     font-style: normal;
 }
-.mail,
-.contact {
+
+.contacts {
     font-family: 'Roboto'
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
     color:var(--item-text-color);
 }
-.mail:focus,
-.mail:hover{
-    color: var(--btn-back-color);
-}
 
-.contact:focus,
-.contact:hover{
+
+.contacts:focus,
+.contacts:hover{
     color: var(--btn-back-color);
 }
 
