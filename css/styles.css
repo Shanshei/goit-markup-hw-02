@@ -174,13 +174,16 @@
 .section-team{
     background-color: var(--secondary-background-color);
 }
-
+.team-list .item{
+    background-color:#FFFFFF;
+}
 .team-list .title{
     
     color: var(--title-text-color);
 }
+
 .team-list .text{
-    background-color: #FFFFFF;
+    
     color: var(--item-text-color);
 }
 /**------------ footer----------- */
