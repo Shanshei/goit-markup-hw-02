@@ -179,10 +179,11 @@
 }
 
 .team-list .title{
-    background-color: #FFFFFF;
+    
     color: var(--title-text-color);
 }
 .team-list .text{
+    background-color: #FFFFFF;
     color: var(--item-text-color);
 }
 /**------------ footer----------- */
