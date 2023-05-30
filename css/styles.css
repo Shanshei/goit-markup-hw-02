@@ -22,7 +22,8 @@
 
 .page{
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color:#434455;
+    background-color: #ffffff;
 }
 .link{
     text-decoration: none;
@@ -58,6 +59,7 @@
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 
@@ -66,7 +68,7 @@
     
 }
 .logo-light{
-    color: #ffffff;
+    color: #f4f4fd;
         
     
 }
@@ -87,9 +89,12 @@
 
 .link-nav:focus,
 .link-nav:hover{
-    color: var(--accent-color)
+    color: var(--btn-back-color)
 }
 
+.header-address{
+    font-style: normal;
+}
 .mail,
 .contact {
     font-family: 'Roboto'
@@ -100,12 +105,12 @@
 }
 .mail:focus,
 .mail:hover{
-    color: var(--accent-color)
+    color: var(--btn-back-color);
 }
 
 .contact:focus,
 .contact:hover{
-    color: var(--accent-color)
+    color: var(--btn-back-color);
 }
 
 
@@ -120,7 +125,8 @@
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: var(--hero-title-color);
 }
 .hero-btn{
@@ -130,9 +136,15 @@
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: var(--background-color);
-    background-color: var(--accent-color);
+    background-color: #4D5AE5;
     cursor: pointer;
     
+}
+.hero-btn:focus,
+.hero-btn:hover {
+    background-color: var(--btn-back-color)
+    
+
 }
 
 
@@ -144,6 +156,8 @@
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: var(--title-text-color)
 }
 /**---------features--------- */
@@ -165,10 +179,10 @@
 }
 
 .team-list .title{
+    background-color: #FFFFFF;
     color: var(--title-text-color);
 }
 .team-list .text{
-    
     color: var(--item-text-color);
 }
 /**------------ footer----------- */
@@ -195,7 +209,8 @@
     line-height: 1.50;
     letter-spacing: 0.04em;
     cursor: pointer;
-    color: var(--btn-back-color);
+    color: #4d5ae5;
+    background-color: #F4F4FD;
 
 }
 .button-current:hover,
